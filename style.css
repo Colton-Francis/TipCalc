@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #004ff9, #fff94c); 
+}
+
+.Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.MainBox{
+    text-align: center;
+    display: flex;
+    height: 80%;
+    width: 40%;
+    padding: 10px;
+    background-color: hsla(252, 100%, 0%, 0.55);
+    border-radius: 10%; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: lightgray;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+.MainBox:hover{
+    transform: scale(1.2);
+}
